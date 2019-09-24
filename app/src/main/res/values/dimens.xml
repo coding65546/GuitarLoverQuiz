@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding1">16dp</dimen>
+    <dimen name="padding2">8dp</dimen>
+    <dimen name="margin1">16dp</dimen>
+    <dimen name="margin2">8dp</dimen>
+    <dimen name="margin_exception1">36dp</dimen>
+    <dimen name="margin_exception2">100dp</dimen>
+    <dimen name="image_height">300dp</dimen>
+    <dimen name="header1">30sp</dimen>
+    <dimen name="header2">24sp</dimen>
+    <dimen name="choices">20sp</dimen>
+    <dimen name="submit_btn">24sp</dimen>
+</resources>

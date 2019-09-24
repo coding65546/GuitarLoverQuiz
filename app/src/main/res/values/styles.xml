@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="header_1">
+        <!-- Header 1 font style -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mediumAquamarine</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/margin1</item>
+        <item name="android:textSize">@dimen/header1</item>
+    </style>
+
+    <style name="header_2">
+        <!-- Header 2 font style -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/slateGray</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/margin1</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:textSize">@dimen/header2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_margin">@dimen/margin1</item>
+        <item name="android:strokeColor" tools:targetApi="lollipop">@color/white</item>
+    </style>
+
+    <style name="question">
+        <!-- 1 Question block with choices main style -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="radio_group">
+        <!-- Radio group style -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin2</item>
+        <item name="android:layout_marginBottom">@dimen/margin2</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">@dimen/margin_exception1
+        </item>
+    </style>
+
+    <style name="edit_text">
+        <!-- EditText style -->
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/white</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin2</item>
+        <item name="android:layout_marginBottom">@dimen/margin2</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">@dimen/margin_exception1
+        </item>
+    </style>
+
+    <style name="radio_text">
+        <!-- Radio text style -->
+        <item name="android:buttonTint" tools:targetApi="lollipop">@color/slateGray</item>
+        <item name="android:textColor">@color/lightGray</item>
+        <item name="android:textSize">@dimen/choices</item>
+    </style>
+
+    <style name="checkbox_style">
+        <!-- CheckBox style -->
+        <item name="android:buttonTint" tools:targetApi="lollipop">@color/slateGray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin1</item>
+        <item name="android:layout_marginBottom">@dimen/margin1</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">@dimen/margin1</item>
+        <item name="android:textColor">@color/lightGray</item>
+        <item name="android:textSize">@dimen/choices</item>
+    </style>
+
+    <style name="submit_button">
+        <!--        android:id="@+id/submit"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginHorizontal="100dp"-->
+        <!--        android:layout_marginVertical="16dp"-->
+        <!--        android:textSize="24sp"-->
+        <!--        android:padding="16dp"-->
+        <!--        android:gravity="center_horizontal"-->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">@dimen/margin_exception2
+        </item>
+        <item name="android:layout_marginVertical" tools:targetApi="o">@dimen/margin1</item>
+        <item name="android:textSize">@dimen/header2</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+</resources>

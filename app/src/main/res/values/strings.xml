@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="Test">Test Test Test Test Test Test</string>
+    <string name="question_1">How many strings are on a steel string guitar?</string>
+    <string name="question_2">On the guitar what is the chord if you hold the B and the E notes, and play all the strings?</string>
+    <string name="question_3">What is the relative minor of C?</string>
+    <string name="question_4">If h is the symbol for Hammer on in Tablature. What is the symbol for pull off?</string>
+    <string name="question_5">Whe are those?</string>
+    <string name="question_6">Who is this?</string>
+    <string name="question_title_1">Question 1</string>
+    <string name="question_title_2">Question 2</string>
+    <string name="question_title_3">Question 3</string>
+    <string name="question_title_4">Question 4</string>
+    <string name="question_title_5">Question 5</string>
+    <string name="question_title_6">Question 6</string>
+    <string name="guitar_quiz_title">Guitar Lover Quiz</string>
+    <string name="choice_101">5</string>
+    <string name="choice_102">3</string>
+    <string name="choice_103">6</string>
+    <string name="choice_201">EADGBE</string>
+    <string name="choice_202">DADGAD</string>
+    <string name="choice_203">DGDGBD</string>
+    <string name="choice_301">Am</string>
+    <string name="choice_302">A</string>
+    <string name="choice_303">Gm</string>
+    <string name="choice_401">P O</string>
+    <string name="choice_402">P</string>
+    <string name="choice_403">Po</string>
+    <string name="choice_501">Santana</string>
+    <string name="choice_502">Keith Richards</string>
+    <string name="choice_503">Jeff Beck</string>
+    <string name="edit_text_hint">Type your answer here</string>
+    <string name="submit">Submit</string>
+</resources>
